@@ -1,0 +1,14 @@
+/* TEAM */
+Your title: Microtrain2007.
+Site: bootcamp@microtrain.net, link to a /contact.html
+Linked in: microtrain-technoloigies.
+Location: Chicago, Illinois, USA.
+
+/* THANKS */
+Name: Microtrain2007 Bootcamp
+
+/* SITE */
+Last update: 2020/07/30
+Standards: HTML5, CSS3,..
+Components: Modernizr, jQuery, etc.
+Software: VSCode, Ubuntu, LAMP
