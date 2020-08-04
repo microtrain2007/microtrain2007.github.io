@@ -9,7 +9,7 @@
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
       <link rel="manifest" href="/site.webmanifest">
-      <link rel="stylesheet" type="text/css" href="./dist/css/main.css">  
+      <link rel="stylesheet" type="text/css" href="./dist/css/main.min.css">  
     <title>Microtrain2007 Resume</title>
     </head>
     <body>
@@ -25,8 +25,8 @@
           </nav>
         </header>
         <main>
-          <section>
-          <h1>Microtrain2007</h1>
+          <section class="intro">
+            <h1>Microtrain2007</h1>
           <div>
             <a href="https://microtrain2005.github.io" target="_blank" rel="noopener">GitHub</a>
             &#x25CF;
@@ -39,7 +39,7 @@
           </section>
 
           <section>
-          <h2>Full Stack Web and Mobile Developer</h2>
+          <h2 class="text-initial">Full Stack Web and Mobile Developer</h2>
           <p>
             Full stack web and hybrid mobile applications developer specializing in full stack JavaScript application
             and architectures. Experienced in all stages of the development life cycle, well versed in numerous
@@ -53,51 +53,57 @@
         </ul>
       </section>
 
-      <section>
-        <h3>Core Competencies</h3>
+      <section class="clearfix">
+        <h3 class="text-initial">Core Competencies</h3>
 
-        <ul>
-            <li>Full Stack Development</li>
+        <ul class="cc-left">
+          <li>Full Stack Development</li>
             <li>Front End Development</li>
 
         </ul>
 
-        <ul>
-            <li>Hybrid Mobile Development</li>
+        <ul class="cc-right">
+          <li>Hybrid Mobile Development</li>
             <li>Server Side Development</li>
         </ul>
       </section>
 
-      <section>
+      <section class="certs">
         <h2>Certifications and Technical Proficiencies</h2>
 
-        <ul>
-            <li>
-                <em>Certifications:</em>
-                Agile Certified Scrum Master
-            </li>
-            <li>
-                <em>Platforms:</em>
-                Linux, LAMP, MEAN, NodeJS
-            </li>
-            <li>
-                <em>Databases:</em>
-                MySQL, MongoDB
-            </li>
-            <li>
-                <em>Tools:</em>
-                VS Code, SSH, Gulp, Git
-            </li>
-            <li>
-                <em>Languages:</em>
-                HTML, CSS, SASS, JavaScript, ES6, PHP, BASH, SQL, TypeScript
-            </li>
-        </ul>
+        <table>
+          <tbody>
+            <tr>
+              <th>Certifications:</th>
+              <td>Agile Certified Scrum Master</td>
+            </tr>
+            <tr>
+              <th>Platforms:</th>
+              <td>Linux, LAMP, MEAN, NodeJS</td>
+            </tr>
+            <tr>
+              <th>Databases:</th>
+              <td>MySQL, MongoDB</td>
+            </tr>
+            <tr>
+              <th>Tools:</th>
+              <td>VS Code, SSH, Gulp, Git</td>
+            </tr>
+            <tr>
+              <th>Languages:</th>
+              <td>HTML, CSS, SASS, JavaScript, ES6, PHP, BASH, SQL, TypeScript</td>
+            </tr>
+          </tbody>
+        </table>
+  
       </section>
 
-      <section>
+      <section class="emp">
         <h2>Professional Experience</h2>
-        <h3>MicroTrain Websites - Chicago, IL \2019 - Present\</h2>
+        <h3 class="clearfix">
+          <span class="float-left">MicroTrain Websites - Chicago, IL</span>
+          <span class="float-right">2019 - Present</span>
+        </h3>
         <p>MicroTrain Websites builds custom web applications for clients across a large number of industries.</p>
 
         <h4>Web Developer</h4>
@@ -107,16 +113,19 @@
             <li>Ensured corporate and department objectives were accomplished in accordance with outlined objectives and mission statements.</li>
         </ul>
 
-        <h3>MicroTrain Technologies - Lombard, IL \2017 - 2019\</h2>
-          <p>MicroTrain Technologies creates programs for clients across a large number of industries.</p>
+        <h3 class="clearfix">
+          <span class="float-left">MicroTrain Technologies - Lombard, IL</span>
+          <span class="float-right">2017 - 2019</span>
+        </h3>
+        <p>MicroTrain Technologies creates programs for clients across a large number of industries.</p>
 
-          <h4>Content Designer</h4>
-          <ul>
-              <li>Provide daily content to meet the users’ requirements document.</li>
-              <li>Designed and edited images to meet the users’ requirements document.</li>
-              <li>Ensured corporate standards were followed in accordance with outlined objectives and mission statements.</li>
-          </ul>
-          </ul>
+        <h4>Content Designer</h4>
+        <ul>
+            <li>Provide daily content to meet the users’ requirements document.</li>
+            <li>Designed and edited images to meet the users’ requirements document.</li>
+            <li>Ensured corporate standards were followed in accordance with outlined objectives and mission statements.</li>
+        </ul>
+        </ul>
 
         <h5>Key Contributions</h5>
         <ul>
@@ -125,15 +134,21 @@
         </ul>
       </section>
 
-      <section>
+      <section class="edu">
         <h2>Education</h2>
 
-        <h3>MicroTrain Technologies - Chicago, IL - Summer 2020</h3>
+        <h3 class="clearfix">
+          MicroTrain Technologies - Chicago, IL
+        <span class="float-right">Summer 2020</span>
+        </h3>
         <h4>Agile Full Stack Web and Hybrid Mobile Application Development</h4>
         <p>Front-end and client-side development with HTML, CSS and JavaScript. Work with libraries and frameworks such as jQuery, Bootstrap and Angular. Build tools such as Yarn and Gulp. Use web technology to build hybrid mobile applications using Apache’s Cordova.</p>
         <p>Work with third party APIs from vendors such as Google, NASA, Twilio and so on. Server side integration with LAMP (Linux, Apache, MySQL, PHP) and MEAN (MongoDB, Express, Angular, Node,js) stacks. Build, set-up, maintain own cloud based server.</p>
         
-        <h3>MicroTrain Technologies - Chicago, IL - Fall 2020</h3>
+        <h3 class="clearfix">
+          MicroTrain Technologies - Chicago, IL
+        <span class="float-right">Fall 2020</span>
+        </h3>
         <h4>Agile Scrum Master</h4>
         <p>Covering the principles of Agile and Scrum methodology through a combination of robust simulations, hands-on experimentation and high-quality instruction. Currently learning the fundamentals of Scrum and how to facilitate, coach and lead an Agile project.</p>
       </section>
