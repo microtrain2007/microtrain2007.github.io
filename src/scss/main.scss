@@ -160,7 +160,7 @@ th {
 
 //contact form styling
 .contact-form {
-  max-width: 300px;
+  max-width: 400px;
   margin: 1rem auto 0;
   background: #ccc;
   border-radius: 6px;
@@ -187,4 +187,16 @@ th {
 .contact-form input[type="submit"] {
   font-size: 2rem;
   padding: .5rem 1rem; }
+
+//thanks styling
+.thanks {
+  max-width: 400px;
+  margin: 1rem auto 0;
+  background: #ccc;
+  border-radius: 6px;
+  padding: 2rem 1.5rem; }
+
+.thanks p {
+  margin-top: 0;
+  text-align: center; }
   
